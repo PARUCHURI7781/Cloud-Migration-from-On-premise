@@ -6,6 +6,7 @@ AdventureWorks is a database provided by Microsoft for free on online platforms.
 
 AdventureWorks database supports a manufacturing MNC named Adventure Works Cycles. It is a sample Online Transaction Processing (or OLTP) database, which is a type of data processing where multiple transactions occur concurrently. These are shipped by Microsoft with all of their SQL server products. For this project I used the Lightweight (LT) data: a lightweight and pared down version of the OLTP sample. [download here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
+
 # 🎯 Project Goals
 -> Establish a connection between on-premise SQL server and Microsoft fabric.
 
@@ -16,6 +17,8 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 ->Utilize Synapse Data Warehouse for loading clean data.
 
 ->Create interactive data visualizations and reports with Microsoft Power BI.
+
+
 
 # 🕵️ Key Insights
 💸 Total Revenue by Product Category.
@@ -30,9 +33,15 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 
  ->Action Bicylcist is the company that invloved in purchases made of around 30,565$.
 
+ 
+
 # 📝 Project Architecture 
  
    ![azure project-1 architecture diagram](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/80649d64-dcb1-4157-9b9e-c54342c30ecc) 
+
+
+
+   
 
 # 📤 Data Ingestion 
 
@@ -46,6 +55,8 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 ### step2: Establishing connectionj between data gateway on the server and the fabric account.
 
    ![connecting gateway to fabric and keep it running](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/6a4818a9-b1ac-409c-bcba-b3181cfb6727) 
+
+   
     
 #### step3: pipeline for data factory
 
@@ -57,9 +68,20 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 * we have used activities like lookup activity to fetch all the table names in the information schema of the sql server passed as a query. This also acts as parameterization of table names passed later.
 * Using for each iterates over each item at one time and then copy activity using the parameterization sumps the data into one lake as delimited text format.
      
-   ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)  
+   ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)
+  
 
 *resultant files in bronze storage
 
-![bronze load](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/c7d7f492-32a8-47f1-9c74-d2ff2d217008)
-    
+![bronze load](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/c7d7f492-32a8-47f1-9c74-d2ff2d217008) 
+
+
+
+# ⚙️ Data Transformation
+
+
+* Established connection between spark notebook and the lakehouse.
+* Cleaned the raw data and modified the data and dumped back into the lakehouse as silver_layer.
+  
+![silver-to-bronze tranformation](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/d09216b8-6c76-4fb1-82bd-a69d76dc556d)
+
