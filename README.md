@@ -47,7 +47,9 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 
    ![connecting gateway to fabric and keep it running](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/6a4818a9-b1ac-409c-bcba-b3181cfb6727) 
     
-#### step3: Leaveraging azure data factory for copying the data tables and storing it into bronze layer 
+#### step3: pipeline for data factory
+
+ 
 
   ![data pipeline 1](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/690262e7-8a7f-4d5b-a917-8df6a13b48d6) 
      
@@ -55,5 +57,9 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 * we have used activities like lookup activity to fetch all the table names in the information schema of the sql server passed as a query. This also acts as parameterization of table names passed later.
 * Using for each iterates over each item at one time and then copy activity using the parameterization sumps the data into one lake as delimited text format.
      
-   ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)
+   ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)  
+
+*resultant files in bronze storage
+
+![bronze load](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/c7d7f492-32a8-47f1-9c74-d2ff2d217008)
     
