@@ -91,5 +91,17 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
   ![bronze_to_gold](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/4d1c703e-8be5-474c-89b2-3a8623c3a752)
 
 
+# 📤 Moving data in delta file format to tables in warehouse. 
+
+*  with the help of data pipeline in syanpse warehouse i was able to copy gold layer files from lakehouse and convert them into tables automatically.
+
+![moving data from lakehouse to warehouse ](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/921a5b33-2535-466c-8539-64f35a43b5c6) 
+
+![creating tables in warehouse](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/44a9f898-5c31-4186-8c8e-48b07fcb361a) 
+
+
+  
+
+
   
 
