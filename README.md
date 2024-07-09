@@ -32,3 +32,4 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 
 # 📝 Project Architecture 
  
+   ![azure project-1 architecture diagram](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/80649d64-dcb1-4157-9b9e-c54342c30ecc)
