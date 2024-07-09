@@ -40,15 +40,20 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
   The above is how the required data resides in the database of sql server 
   
 ### step1: establishing an data gateway on the server where sql server resides. 
-    ![gateway connectionh](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/253b6269-93e9-439d-b573-6aab33665c14)
+
+   ![gateway connectionh](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/253b6269-93e9-439d-b573-6aab33665c14)
 
 ### step2: Establishing connectionj between data gateway on the server and the fabric account.
-    ![connecting gateway to fabric and keep it running](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/6a4818a9-b1ac-409c-bcba-b3181cfb6727) 
+
+   ![connecting gateway to fabric and keep it running](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/6a4818a9-b1ac-409c-bcba-b3181cfb6727) 
     
 #### step3: Leaveraging azure data factory for copying the data tables and storing it into bronze layer 
-     ![data pipeline 1](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/690262e7-8a7f-4d5b-a917-8df6a13b48d6)
+
+  ![data pipeline 1](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/690262e7-8a7f-4d5b-a917-8df6a13b48d6) 
+     
 
      1. we have used activities like lookup activity to fetch all the table names in the information schema of the sql server passed as a query. This also acts as parameterization of table names passed later.
      2. Using for each iterates over each item at one time and then copy activity using the parameterization sumps the data into one lake as delimited text format.
-     ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)
+     
+   ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)
     
