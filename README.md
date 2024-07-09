@@ -100,6 +100,20 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 ![creating tables in warehouse](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/44a9f898-5c31-4186-8c8e-48b07fcb361a) 
 
 
+
+# creating semantic data model and loading it into power bi desktop. 
+
+  ![creating symantic model](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/5a285ddd-6e8c-4b3d-bbfa-0e6773f3edfd) 
+
+  established connections between tables and created a data flow model 
+
+![power bi import](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/a68af293-b190-46f3-8d54-1baf99ebc9da) 
+
+
+# generating dashboard
+
+
+
   
 
 
