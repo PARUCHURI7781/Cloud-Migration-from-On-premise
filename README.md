@@ -110,7 +110,9 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 ![power bi import](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/a68af293-b190-46f3-8d54-1baf99ebc9da) 
 
 
-# generating dashboard
+# 📊  generating dashboard 
+
+![dashboard](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/6d984024-e426-414a-858d-d050d88df3ff) 
 
 
 
