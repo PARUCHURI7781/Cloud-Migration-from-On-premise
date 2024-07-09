@@ -83,5 +83,13 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 * Established connection between spark notebook and the lakehouse.
 * Cleaned the raw data and modified the data and dumped back into the lakehouse as silver_layer.
   
-![silver-to-bronze tranformation](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/d09216b8-6c76-4fb1-82bd-a69d76dc556d)
+![silver-to-bronze tranformation](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/d09216b8-6c76-4fb1-82bd-a69d76dc556d) 
+
+
+* Further transformed the data from silver layer and placed it in the gold layer.
+
+  ![bronze_to_gold](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/4d1c703e-8be5-474c-89b2-3a8623c3a752)
+
+
+  
 
