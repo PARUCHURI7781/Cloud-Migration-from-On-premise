@@ -52,8 +52,8 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
   ![data pipeline 1](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/690262e7-8a7f-4d5b-a917-8df6a13b48d6) 
      
 
-     1. we have used activities like lookup activity to fetch all the table names in the information schema of the sql server passed as a query. This also acts as parameterization of table names passed later.
-     2. Using for each iterates over each item at one time and then copy activity using the parameterization sumps the data into one lake as delimited text format.
+     * we have used activities like lookup activity to fetch all the table names in the information schema of the sql server passed as a query. This also acts as parameterization of table names passed later.
+     * Using for each iterates over each item at one time and then copy activity using the parameterization sumps the data into one lake as delimited text format.
      
    ![copy activity destination](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/291ce395-8d27-4c99-8846-9c4a08b2ae0d)
     
