@@ -41,6 +41,11 @@ AdventureWorks database supports a manufacturing MNC named Adventure Works Cycle
 
 
 
+
+
+# TASK FLOWS 
+
+![task flow](https://github.com/PARUCHURI7781/Cloud-Migration-from-On-premise/assets/65880017/60a8e979-fd01-4c83-a1c2-9921cb233fff) 
    
 
 # 📤 Data Ingestion 
